@@ -25,7 +25,7 @@ pip install ultralytics cvzone opencv-python pandas matplotlib
 └── README.md           # Project documentation
 ```
 
-## 🛠 How to Use
+##  How to Use
 ### 1️. Image-Based Vehicle Detection
 Upload an image and run the following command:
 ```bash
@@ -48,8 +48,8 @@ python video_tracking.py --video path/to/video.mp4
 - Optimize detection speed for real-time applications.
 - Expand dataset for improved accuracy.
 
-## 📜 References
+##  References
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 
-📩 **Contributions are welcome!** Feel free to open issues or submit pull requests for improvements.
+ **Contributions are welcome!** Feel free to open issues or submit pull requests for improvements.
 
