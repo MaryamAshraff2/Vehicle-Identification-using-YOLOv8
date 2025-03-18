@@ -1,23 +1,23 @@
-# 🚗 Vehicle Identification Using YOLOv8
+#  Vehicle Identification Using YOLOv8
 
 This project implements **YOLOv8** for real-time **vehicle detection and tracking** in images and videos. It can detect vehicles such as **cars, buses, and trucks** and track their movement across frames using a **custom tracking algorithm**.
 
-## 🔥 Features
+##  Features
 - **Image-Based Detection**: Detects and annotates vehicles in static images.
 - **Video-Based Tracking**: Identifies and tracks moving vehicles in videos.
 - **Custom Object Tracker**: Assigns unique IDs to detected vehicles and maintains tracking.
 - **YOLOv8 Integration**: Uses **Ultralytics' YOLOv8 model** for accurate object detection.
 - **Vehicle Counting**: Counts the number of detected vehicles in real-time.
 
-## 📌 Dependencies
+##  Dependencies
 Ensure you have the necessary dependencies installed:
 ```bash
 pip install ultralytics cvzone opencv-python pandas matplotlib
 ```
 
-## 📂 Project Structure
+##  Project Structure
 ```
-📦 Vehicle-Detection-YOLOv8
+ Vehicle-Detection-YOLOv8
 ├── Tracker.py          # Custom tracking class for vehicle detection
 ├── image_detection.py  # Detects vehicles in images
 ├── video_tracking.py   # Detects and tracks vehicles in videos
@@ -26,24 +26,24 @@ pip install ultralytics cvzone opencv-python pandas matplotlib
 ```
 
 ## 🛠 How to Use
-### 1️⃣ Image-Based Vehicle Detection
+### 1️. Image-Based Vehicle Detection
 Upload an image and run the following command:
 ```bash
 python image_detection.py --image path/to/image.jpg
 ```
 
-### 2️⃣ Video-Based Vehicle Tracking
+### 2️. Video-Based Vehicle Tracking
 Upload a video and execute:
 ```bash
 python video_tracking.py --video path/to/video.mp4
 ```
 
-## 📊 Output
+##  Output
 - **Bounding boxes** around detected vehicles.
 - **Live vehicle count** displayed on the video.
 - **Summary of detected vehicles** printed in the console.
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Implement lane-wise vehicle counting.
 - Optimize detection speed for real-time applications.
 - Expand dataset for improved accuracy.
