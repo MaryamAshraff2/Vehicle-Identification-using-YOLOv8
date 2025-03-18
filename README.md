@@ -51,5 +51,6 @@ python video_tracking.py --video path/to/video.mp4
 ##  References
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 
+The link to the Colab notebook is provided within the .py file. If you need access, please send a request, and I will grant the necessary permissions.
  **Contributions are welcome!** Feel free to open issues or submit pull requests for improvements.
 
